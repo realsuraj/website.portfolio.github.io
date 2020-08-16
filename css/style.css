@@ -140,25 +140,8 @@ body {
   margin-bottom: 1rem;
 }
 
-#about .about-content {
-  display: flex;
-}
-
-#about .about-text,
-#about .about-image {
-  flex: 1;
-}
-
 #about .about-text {
-  text-align: justify;
-}
-
-#about .about-image img {
-  display: block;
-  margin-left: auto;
-  width: 75%;
-  border-radius: 40%;
-  margin-top: 60px;
+  text-align: center;
 }
 
 /* project showcase */
@@ -173,15 +156,32 @@ body {
   color: #000000;
 }
 
-#projects .container .container_for_projects div a:hover {
-  color: blue;
+#projects .container .container_for_projects div:hover,
+#projects .container .container_for_projects a:hover {
+  background-color: rgba(54, 147, 255, 0.7);
+  height: auto;
+  text-transform: uppercase;
+  color: white;
+}
+
+#projects .container .container_for_projects div img:hover {
+  height: 270px;
+  width: 310px;
+}
+
+#projects .container .container_for_projects div img {
+  height: 250px;
+  width: 270px;
+  margin: 3px;
 }
 .container_for_projects {
+  height: 30rem;
   display: flex;
   justify-content: space-between;
   text-align: center;
   overflow-x: scroll;
 }
+
 .container_for_projects div {
   margin-right: 5px;
   margin-left: 2px;
@@ -227,7 +227,8 @@ body {
 /* Section testimonial */
 
 #testimonials {
-  background: url(../img/laptop.jpg) no-repeat center center/cover;
+  background: url(https://t3.ftcdn.net/jpg/02/16/47/84/240_F_216478405_8BiktHuFegtWgDueFicJTJpvjHCO5qk3.jpg)
+    no-repeat center center/cover;
   height: 100vh;
 }
 
@@ -235,7 +236,7 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(173, 142, 142, 0.6);
   height: 100vh;
   /*padding: 5cm 0; */
 }
