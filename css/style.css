@@ -145,6 +145,11 @@ body {
 }
 
 /* project showcase */
+
+#projects .container .container_for_projects div {
+  background-color: #fff;
+}
+
 #projects .container h1 {
   text-align: center;
   margin-bottom: 2rem;
@@ -154,6 +159,7 @@ body {
 #projects .container .container_for_projects div a {
   text-decoration: none;
   color: #000000;
+  text-transform: capitalize;
 }
 
 #projects .container .container_for_projects div:hover,
@@ -183,8 +189,8 @@ body {
 }
 
 .container_for_projects div {
-  margin-right: 5px;
-  margin-left: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
