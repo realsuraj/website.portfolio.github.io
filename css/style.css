@@ -479,11 +479,16 @@ footer p {
     box-shadow: 2px 2px 5px #d1d1d1;
     font-size: 0.9rem;
   }
-
+  #services .boxes {
+    display: block;
+  }
   #services .box i {
     padding: 1rem;
     margin: 1rem 1rem;
     margin-bottom: 2rem;
+  }
+  #services .box {
+    margin-top: 3rem;
   }
 
   #testimonials h2 {
@@ -494,7 +499,7 @@ footer p {
     font-size: 0.9rem;
   }
   #testimonials .box {
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 15px;
   }
 
