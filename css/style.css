@@ -507,6 +507,10 @@ footer p {
   #testimonials .box:nth-child(2) {
     margin-bottom: 1.5rem;
   }
+
+  #contact {
+    padding: 1rem;
+  }
   #contact h2 {
     text-align: center;
     font-size: 1.5rem;
