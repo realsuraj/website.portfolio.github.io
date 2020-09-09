@@ -166,14 +166,14 @@ body {
 }
 
 #projects .container .container_for_projects div:hover,
-#projects .container .container_for_projects a:hover {
+#projects .container .container_for_projects div:hover a {
   background-color: rgba(54, 147, 255, 0.7);
   height: auto;
   text-transform: uppercase;
   color: white;
 }
 
-#projects .container .container_for_projects div img:hover {
+#projects .container .container_for_projects div:hover img {
   height: 270px;
   width: 310px;
 }
@@ -451,13 +451,13 @@ footer p {
   }
 
   #projects .container .container_for_projects div:hover,
-  #projects .container .container_for_projects a:hover {
+  #projects .container .container_for_projects div:hover a {
     background-color: rgba(54, 147, 255, 0.7);
     height: auto;
     text-transform: uppercase;
     color: white;
   }
-  #projects .container .container_for_projects div img:hover {
+  #projects .container .container_for_projects div:hover img {
     height: 104px;
     width: 135px;
   }
