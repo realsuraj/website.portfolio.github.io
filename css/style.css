@@ -115,6 +115,11 @@ body {
   margin: .5rem ;
 }
 
+ .blog-content .btn-blog:hover{
+  background-color: #3693ff;
+  color: white;
+}
+
  .blog-content span{
   display: block;
 
